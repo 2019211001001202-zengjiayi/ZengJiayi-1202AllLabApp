@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0EB38DFD-504D-402A-8FA9-4D97FF5E1C42}</ProjectGuid>
+    <ProjectGuid>{0E3D4AF6-6AB1-4ED9-9A40-6A0DB84D31BB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LabAss3</RootNamespace>
-    <AssemblyName>LabAss3</AssemblyName>
+    <RootNamespace>LabAss3_</RootNamespace>
+    <AssemblyName>LabAss3!</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerValidation.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCustomerDataEntry.cs" />
     <Compile Include="frmCustomerPreview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +70,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerPreview.resx">
+      <DependentUpon>frmCustomerPreview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>

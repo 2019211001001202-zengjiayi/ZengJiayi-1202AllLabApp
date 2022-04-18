@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LabAss3
+namespace LabAss3_
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace LabAss3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIParent1 ());
+            Application.Run(new MDIParent1());
         }
     }
 }
