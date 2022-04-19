@@ -70,6 +70,8 @@
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enterCustomerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -82,8 +84,6 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.customerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enterCustomerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -431,6 +431,20 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.aboutToolStripMenuItem.Text = "关于(&A) ... ...";
             // 
+            // customerToolStripMenuItem
+            // 
+            this.customerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.enterCustomerToolStripMenuItem});
+            this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
+            this.customerToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
+            this.customerToolStripMenuItem.Text = "Customer";
+            // 
+            // enterCustomerToolStripMenuItem
+            // 
+            this.enterCustomerToolStripMenuItem.Name = "enterCustomerToolStripMenuItem";
+            this.enterCustomerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.enterCustomerToolStripMenuItem.Text = "Enter Customer";
+            // 
             // toolStrip
             // 
             this.toolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -532,20 +546,6 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 20);
             this.toolStripStatusLabel.Text = "状态";
-            // 
-            // customerToolStripMenuItem
-            // 
-            this.customerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.enterCustomerToolStripMenuItem});
-            this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            this.customerToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
-            this.customerToolStripMenuItem.Text = "Customer";
-            // 
-            // enterCustomerToolStripMenuItem
-            // 
-            this.enterCustomerToolStripMenuItem.Name = "enterCustomerToolStripMenuItem";
-            this.enterCustomerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.enterCustomerToolStripMenuItem.Text = "Enter Customer";
             // 
             // MDIParent1
             // 

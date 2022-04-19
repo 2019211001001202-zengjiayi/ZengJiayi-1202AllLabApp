@@ -105,11 +105,15 @@ namespace LabAss3_
         }
         private void enterCustomerToolStripMenuItem_Click(object sender,EventArgs e)
         {
-             {
-                frmCustomerDataEntry obj = new frmCustomerDataEntry();
-                obj.MdiParent = this;
-                obj.Show();
-            }
+            SetValues obj = new SetValues();
+            obj.MdiParent = this;
+            obj.Show();
+        }
+
+        private void customerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
+
 }
