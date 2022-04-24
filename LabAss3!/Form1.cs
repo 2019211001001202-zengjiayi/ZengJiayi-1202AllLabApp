@@ -29,7 +29,7 @@ namespace LabAss3_
 
         }
 
-        private void button_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             string Gender, Hobby, Status = "";
 

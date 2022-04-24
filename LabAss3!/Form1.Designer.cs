@@ -195,7 +195,7 @@
             this.btnPreview.TabIndex = 13;
             this.btnPreview.Text = "Preview";
             this.btnPreview.UseVisualStyleBackColor = true;
-            this.btnPreview.Click += new System.EventHandler(this.button_Click);
+            this.btnPreview.Click += new System.EventHandler(this.button2_Click);
             // 
             // dtgCustomer
             // 
@@ -216,7 +216,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button2_Click);
             // 
             // button2
             // 
